@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Contents</title>
+</head>
+<body>
+    <h1>{{ filename }}</h1>
+    <ul>
+        {% for line in lines %}
+            <li>{{ line|safe }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
