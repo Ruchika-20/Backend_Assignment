@@ -35,3 +35,5 @@ exception happens error page should be displayed with exception details.
 4. Lastly, Run the Flask App :
     - flask run
 
+5. You can either run the API in postman by creating a GET Request and setting the url path or you can also directly open the url in web browser.
+
